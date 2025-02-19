@@ -2,4 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: seagreen;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+}
+.menu-list{
+    display: flex;
+    gap: 2em;
+}
+button{
+    padding: 10px 14px;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+}
+button a{
+    color: white;
+}
+
+.hero-sect{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-sect > div > h1{
+    color: orangered;
+    font-size: 1.4em;
+    font-weight: bold;
 }
